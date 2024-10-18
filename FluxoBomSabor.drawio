@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJvnz3nHJlJsGaQcMosA-0" target="QJvnz3nHJlJsGaQcMosA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-0" value="UC 01&amp;nbsp;&lt;br&gt;Acessa o sistema de pedidos online" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJvnz3nHJlJsGaQcMosA-1" target="QJvnz3nHJlJsGaQcMosA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-1" value="UC 02&lt;br&gt;Seleciona itens do menu&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJvnz3nHJlJsGaQcMosA-3" target="QJvnz3nHJlJsGaQcMosA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-3" value="&lt;div&gt;UC 03&lt;/div&gt;Personaliza o pedido" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-5" value="&lt;div&gt;UC 04&lt;/div&gt;Pagamento aprovado" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="360" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJvnz3nHJlJsGaQcMosA-5" target="QJvnz3nHJlJsGaQcMosA-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="400" as="sourcePoint" />
+            <mxPoint x="464" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-10" value="sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="350" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QJvnz3nHJlJsGaQcMosA-5" target="QJvnz3nHJlJsGaQcMosA-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="455" as="sourcePoint" />
+            <mxPoint x="520" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-12" value="não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="420" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-21" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="30" width="750" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QJvnz3nHJlJsGaQcMosA-21" source="QJvnz3nHJlJsGaQcMosA-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-7" value="UC 05&lt;br&gt;Processa o pedido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-21">
+          <mxGeometry x="430" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-8" value="UC 09&lt;br&gt;Escolhe outro método de pagamento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-21">
+          <mxGeometry x="430" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QJvnz3nHJlJsGaQcMosA-21" target="QJvnz3nHJlJsGaQcMosA-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-18" value="UC 08&lt;br&gt;Pedido confirmado para o cliente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-21">
+          <mxGeometry x="430" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-13" value="UC 06&lt;br&gt;Pedido enviado para a cozinha" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-21">
+          <mxGeometry x="610" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-15" value="&lt;div&gt;UC 07&lt;/div&gt;Pedido pronto para retirada/entrega" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-21">
+          <mxGeometry x="610" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QJvnz3nHJlJsGaQcMosA-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="300" as="sourcePoint" />
+            <mxPoint x="650" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Diagrama de Fluxo BomSabor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-21">
+          <mxGeometry x="300" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-22" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="540" width="750" height="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-23" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC 01 - Acessa o sistema de pedidos online&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Atores:&lt;/strong&gt; Cliente&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pré-condição:&lt;/strong&gt; O cliente tem acesso à internet e está no site do restaurante &quot;Bom Sabor&quot;.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pós-condição:&lt;/strong&gt; O cliente pode navegar pelo menu e selecionar itens.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Descrição:&lt;/strong&gt;&lt;ol&gt;&lt;li&gt;O cliente acessa a página principal do sistema de pedidos online.&lt;/li&gt;&lt;li&gt;O sistema carrega o menu digital para o cliente.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-22">
+          <mxGeometry x="20" y="35" width="610" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC 02 - Cliente seleciona itens do menu&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Atores:&lt;/strong&gt; Cliente&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pré-condição:&lt;/strong&gt; O cliente está autenticado e navegando no sistema de pedidos online.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pós-condição:&lt;/strong&gt; Os itens selecionados são adicionados ao carrinho de compras.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Descrição:&lt;/strong&gt;&lt;ol&gt;&lt;li&gt;O cliente navega pelas categorias do menu.&lt;/li&gt;&lt;li&gt;O cliente seleciona um ou mais itens e adiciona ao carrinho.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-22">
+          <mxGeometry x="30" y="180" width="610" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-25" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC 03 - Cliente personaliza o pedido&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Atores:&lt;/strong&gt; Cliente&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pré-condição:&lt;/strong&gt; O cliente já selecionou itens no menu.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pós-condição:&lt;/strong&gt; O pedido é personalizado e atualizado no carrinho.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Descrição:&lt;/strong&gt;&lt;ol&gt;&lt;li&gt;O cliente personaliza os itens selecionados (ex: escolha de ingredientes).&lt;/li&gt;&lt;li&gt;O sistema atualiza o carrinho com as personalizações feitas pelo cliente.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-22">
+          <mxGeometry x="20" y="350" width="610" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC 04 - Verificação de pagamento&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Atores:&lt;/strong&gt; Cliente, Sistema de Pagamento&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pré-condição:&lt;/strong&gt; O cliente concluiu a seleção e personalização dos itens.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pós-condição:&lt;/strong&gt; O pagamento é aprovado ou o cliente deve selecionar outra forma de pagamento.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Descrição:&lt;/strong&gt;&lt;ol&gt;&lt;li&gt;O cliente escolhe o método de pagamento (cartão de crédito ou débito).&lt;/li&gt;&lt;li&gt;O sistema verifica a validade dos dados do pagamento.&lt;/li&gt;&lt;li&gt;Se o pagamento for aprovado, o sistema processa o pedido.&lt;/li&gt;&lt;li&gt;Se o pagamento for recusado, o cliente deve selecionar outro método de pagamento.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-22">
+          <mxGeometry x="20" y="510" width="610" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC 05 - Sistema processa o pedido&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Atores:&lt;/strong&gt; Sistema&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pré-condição:&lt;/strong&gt; O pagamento foi aprovado.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pós-condição:&lt;/strong&gt; O pedido é registrado no sistema e enviado à cozinha.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Descrição:&lt;/strong&gt;&lt;ol&gt;&lt;li&gt;O sistema registra o pedido e calcula o valor total.&lt;/li&gt;&lt;li&gt;O pedido é enviado automaticamente para a equipe de cozinha.&lt;/li&gt;&lt;li&gt;O status do pedido é atualizado para &quot;Em processamento&quot;.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-22">
+          <mxGeometry x="20" y="690" width="610" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC 06 - Pedido enviado para a cozinha&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Atores:&lt;/strong&gt; Sistema, Equipe de Cozinha&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pré-condição:&lt;/strong&gt; O pedido foi processado e enviado para a equipe interna.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pós-condição:&lt;/strong&gt; A equipe de cozinha começa a preparar o pedido.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Descrição:&lt;/strong&gt;&lt;ol&gt;&lt;li&gt;A equipe de cozinha recebe o pedido com todos os detalhes.&lt;/li&gt;&lt;li&gt;O pedido entra na fila de preparo.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-22">
+          <mxGeometry x="20" y="870" width="610" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-29" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC 07 - Pedido pronto para retirada/entrega&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Atores:&lt;/strong&gt; Sistema, Equipe de Cozinha, Cliente&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pré-condição:&lt;/strong&gt; O pedido foi preparado pela cozinha.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pós-condição:&lt;/strong&gt; O pedido está pronto para ser retirado ou enviado para entrega.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Descrição:&lt;/strong&gt;&lt;ol&gt;&lt;li&gt;O sistema atualiza o status do pedido para &quot;Pronto&quot;.&lt;/li&gt;&lt;li&gt;A equipe de entrega (ou o cliente) é notificada que o pedido está pronto para ser retirado ou entregue.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-22">
+          <mxGeometry x="20" y="1050" width="610" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-30" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC 08 - Pedido confirmado para o cliente&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Atores:&lt;/strong&gt; Sistema, Cliente&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pré-condição:&lt;/strong&gt; O pedido foi entregue ou retirado pelo cliente.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pós-condição:&lt;/strong&gt; O cliente recebe a confirmação final de que o pedido foi concluído.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Descrição:&lt;/strong&gt;&lt;ol&gt;&lt;li&gt;O sistema atualiza o status do pedido para &quot;Entregue&quot; ou &quot;Concluído&quot;.&lt;/li&gt;&lt;li&gt;O cliente recebe uma notificação de confirmação de que o pedido foi entregue ou retirado.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-22">
+          <mxGeometry x="20" y="1240" width="610" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QJvnz3nHJlJsGaQcMosA-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC 09 - Cliente escolhe outro método de pagamento&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Atores:&lt;/strong&gt; Cliente, Sistema de Pagamento&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pré-condição:&lt;/strong&gt; O pagamento inicial foi recusado ou falhou.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pós-condição:&lt;/strong&gt; O cliente seleciona um novo método de pagamento e tenta novamente.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Descrição:&lt;/strong&gt;&lt;ol&gt;&lt;li&gt;O sistema notifica o cliente que o pagamento foi recusado.&lt;/li&gt;&lt;li&gt;O cliente retorna à tela de pagamento e escolhe um novo método (ex: outro cartão ou forma de pagamento).&lt;/li&gt;&lt;li&gt;O cliente insere os novos dados de pagamento.&lt;/li&gt;&lt;li&gt;O sistema processa novamente a transação.&lt;/li&gt;&lt;li&gt;Se o novo pagamento for aprovado, o sistema processa o pedido.&lt;/li&gt;&lt;li&gt;Se o novo pagamento for recusado, o processo é repetido até que o cliente selecione um método válido ou cancele o pedido.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="QJvnz3nHJlJsGaQcMosA-22">
+          <mxGeometry x="20" y="1410" width="610" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
