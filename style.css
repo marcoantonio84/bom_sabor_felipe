@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    padding: 10px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+}
+
+.table-info {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.search-container {
+    position: relative;
+    flex-grow: 1;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    padding-left: 40px; /* Space for search icon */
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.call-button, .account-button, .cart-button {
+    background-color: #d11f1f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 0px; /* Rectangular style */
+}
+
+.call-button:hover, .account-button:hover, .cart-button:hover {
+    background-color: #b11818;
+    transform: scale(1.05); /* Hover effect to increase size */
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.highlight-section {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #333;
+    padding: 20px;
+    min-width: 200px;
+    color: white;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin: 20px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s;
+}
+
+.sidebar a:hover {
+    color: #d11f1f;
+}
+
+.highlight-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlight-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.highlight-text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.highlight-text h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.highlight-text p {
+    font-size: 1.2rem;
+    color: #777;
+}
