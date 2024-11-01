@@ -4,13 +4,13 @@ Este repositório contém a implementação do MVP (Produto Mínimo Viável) par
 
 Visão Geral
 
-O sistema de pedidos online foi desenvolvido para permitir que os clientes façam pedidos diretamente de seus dispositivos, oferecendo personalização de pratos e integração com métodos de pagamento online. Além disso, o sistema possui um painel de gerenciamento para os funcionários do restaurante visualizarem e processarem pedidos.
+O sistema de pedidos online foi desenvolvido para permitir que os clientes façam pedidos diretamente dos dispositivos presente em sua mesa, oferecendo personalização de pratos. Além disso, o sistema possui um painel de gerenciamento para os funcionários do restaurante visualizarem e processarem pedidos.
 
 Principais Funcionalidades:
 
 Menu digital interativo para seleção de itens.
 Personalização de pedidos.
-Opções de pagamento online.
+Chamar o garçom
 Acompanhamento de status de pedidos em tempo real.
 Painel administrativo para gerenciar pedidos e visualizar relatórios.
 
@@ -21,6 +21,6 @@ Diagramas: Diagramas de classes e fluxogramas.
 Casos de Uso: Descrição dos UC (Casos de Uso) detalhados.
 Requisitos: Especificação de requisitos funcionais, não funcionais e de negócio.
 /src: Contém o código-fonte da aplicação web.
-Frontend: Implementação da interface do cliente usando HTML, CSS e JavaScript.
-Backend: Implementação do servidor com Node.js e integração com banco de dados (a ser definido).
-/tests: Scripts e documentação dos testes realizados.
+Frontend: Implementação da interface do cliente usando HTML, CSS, JavaScript.
+Backend: O servidor será o Xamp e o banco de dados Postgrees, a linguagem principal será PHP.
+
