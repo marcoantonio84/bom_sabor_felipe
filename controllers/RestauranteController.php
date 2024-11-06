@@ -1,11 +1,13 @@
 <?php
 
-require_once '../classes/Produto.php';
-require_once '../classes/Pedido.php';
-require_once '../classes/Mesa.php';
-require_once '../classes/Garcom.php';
-require_once '../classes/Cozinha.php';
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use Restaurante\Classes\Produto;
+use Restaurante\Classes\Pedido;
+use Restaurante\Classes\Mesa;
+use Restaurante\Classes\Garcom;
+use Restaurante\Classes\Cozinha;
 
 class RestauranteController {
-    // Métodos para manipular pedidos e enviar para a cozinha
+    // Métodos e lógicas do controlador
 }
