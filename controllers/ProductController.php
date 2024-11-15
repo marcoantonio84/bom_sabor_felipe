@@ -3,49 +3,46 @@
 require_once '../models/Product.php';
 
 class ProductController {
-    // Lista todos os produtos
-    public function index() {
-        $product = new Product();
-        $products = $product->getAll();
-        echo json_encode($products);
+    private $product;
+
+    public function __construct() {
+        $this->product = new Product();
     }
 
-    // Exibe um produto específico
+    // Listar todos os produtos
+    public function index() {
+        $products = $this->product->getAll();
+        if (count($products) > 0) {
+            echo json_encode($products);
+        } else {
+            http_response_code(404);
+            echo json_encode(["message" => "Nenhum produto encontrado"]);
+        }
+    }
+
+    // Exibir um produto específico
     public function show($id) {
-        $product = new Product();
-        $result = $product->getById($id);
-        if ($result) {
-            echo json_encode($result);
+        $product = $this->product->getById($id);
+        if ($product) {
+            echo json_encode($product);
         } else {
             http_response_code(404);
             echo json_encode(["message" => "Produto não encontrado"]);
         }
     }
 
-    // Adiciona um novo produto
+    // Criar um novo produto
     public function store() {
-        $data = json_decode(file_get_contents("php://input"), true); // Recebe dados JSON do corpo da requisição
-        if ($this->validate($data)) {
-            $product = new Product();
-            $product->create($data);
-            http_response_code(201);
-            echo json_encode(["message" => "Produto criado com sucesso"]);
-        } else {
-            http_response_code(400);
-            echo json_encode(["message" => "Dados inválidos"]);
-        }
-    }
-
-    // Atualiza um produto existente
-    public function update($id) {
         $data = json_decode(file_get_contents("php://input"), true);
-        if ($this->validate($data)) {
-            $product = new Product();
-            if ($product->update($id, $data)) {
-                echo json_encode(["message" => "Produto atualizado com sucesso"]);
+
+        if (isset($data['name']) && isset($data['price']) && isset($data['description'])) {
+            $result = $this->product->create($data);
+            if ($result) {
+                http_response_code(201);
+                echo json_encode(["message" => "Produto criado com sucesso"]);
             } else {
-                http_response_code(404);
-                echo json_encode(["message" => "Produto não encontrado"]);
+                http_response_code(500);
+                echo json_encode(["message" => "Erro ao criar o produto"]);
             }
         } else {
             http_response_code(400);
@@ -53,19 +50,32 @@ class ProductController {
         }
     }
 
-    // Exclui um produto
-    public function delete($id) {
-        $product = new Product();
-        if ($product->delete($id)) {
-            echo json_encode(["message" => "Produto excluído com sucesso"]);
+    // Atualizar um produto
+    public function update($id) {
+        $data = json_decode(file_get_contents("php://input"), true);
+
+        if (isset($data['name']) && isset($data['price']) && isset($data['description'])) {
+            $result = $this->product->update($id, $data);
+            if ($result) {
+                echo json_encode(["message" => "Produto atualizado com sucesso"]);
+            } else {
+                http_response_code(500);
+                echo json_encode(["message" => "Erro ao atualizar o produto"]);
+            }
         } else {
-            http_response_code(404);
-            echo json_encode(["message" => "Produto não encontrado"]);
+            http_response_code(400);
+            echo json_encode(["message" => "Dados inválidos"]);
         }
     }
 
-    // Validação básica dos dados de entrada
-    private function validate($data) {
-        return isset($data['name'], $data['price']) && !empty($data['name']) && is_numeric($data['price']);
+    // Excluir um produto
+    public function delete($id) {
+        $result = $this->product->delete($id);
+        if ($result) {
+            echo json_encode(["message" => "Produto excluído com sucesso"]);
+        } else {
+            http_response_code(500);
+            echo json_encode(["message" => "Erro ao excluir o produto"]);
+        }
     }
 }

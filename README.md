@@ -1,3 +1,4 @@
+Aqui está o README atualizado com as rotas:
 
 ```markdown
 # Sistema de Pedidos para Restaurante
@@ -113,6 +114,24 @@ Projeto Felipe
 └── README.md
 ```
 
+## Rotas
+
+### Produtos
+
+- **`GET /products`**: Lista todos os produtos.
+- **`POST /products`**: Cria um novo produto.
+- **`GET /products/{id}`**: Exibe um produto específico pelo ID.
+- **`PUT /products/{id}`**: Atualiza um produto específico pelo ID.
+- **`DELETE /products/{id}`**: Exclui um produto específico pelo ID.
+
+### Pedidos
+
+- **`GET /orders`**: Lista todos os pedidos.
+- **`POST /orders`**: Cria um novo pedido.
+- **`GET /orders/{id}`**: Exibe um pedido específico pelo ID.
+- **`PUT /orders/{id}`**: Atualiza um pedido específico pelo ID.
+- **`DELETE /orders/{id}`**: Exclui um pedido específico pelo ID.
+
 ## Contribuição
 
 1. Fork o repositório.
@@ -126,20 +145,4 @@ Projeto Felipe
 Este projeto está licenciado sob a [MIT License](LICENSE).
 ```
 
-### Explicação de cada seção:
-
-- **Descrição**: Explica o objetivo do projeto, destacando as funcionalidades que ele oferece.
-- **Funcionalidades**: Lista as principais funcionalidades que o sistema oferece.
-- **Tecnologias Utilizadas**: Descreve as tecnologias e bibliotecas usadas no projeto.
-- **Requisitos**: Informa as versões mínimas das ferramentas necessárias para rodar o projeto.
-- **Instalação**: Passos detalhados para configurar o ambiente e rodar o projeto.
-- **Como Usar**: Explica como o sistema será utilizado pelos usuários finais (clientes no restaurante).
-- **Estrutura de Pastas**: Mostra a estrutura de pastas do projeto para dar uma visão geral da organização do código.
-- **Contribuição**: Guia para quem quiser contribuir com o projeto.
-- **Licença**: Informação sobre a licença do projeto (se houver).
-
-### Conclusão
-
-Esse `README.md` serve como um ponto de partida bem organizado para quem for usar ou contribuir no seu projeto. Lembre-se de personalizar as partes conforme necessário (por exemplo, a URL do repositório, detalhes sobre o banco de dados, etc.).
-
-Se precisar de ajustes ou mais detalhes em alguma parte, é só me avisar!
+Esse README fornece uma documentação completa do projeto, incluindo as rotas para cada recurso. Se precisar de mais detalhes ou ajustes, avise!

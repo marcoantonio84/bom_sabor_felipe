@@ -1,0 +1,374 @@
+/* Reset e Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    padding: 10px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+}
+
+.table-info {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+/* Busca */
+.search-container {
+    position: relative;
+    flex-grow: 1;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: white;
+}
+
+/* Botões */
+.call-button, .account-button, .cart-button, .add-to-cart, .checkout-button {
+    background-color: #d11f1f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center; /* Centraliza o conteúdo dentro do botão */
+    margin: 0 auto; /* Garante que o botão seja centralizado */
+    text-align: center; 
+    width: 200px; 
+}
+
+.call-button:hover, .account-button:hover, .cart-button:hover, 
+.add-to-cart:hover, .checkout-button:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o botão e o conteúdo */
+    text-align: center;
+    justify-content: center; /* Certifica-se que o botão e o conteúdo estão centralizados verticalmente */
+    background-color: #b11818;
+    transform: scale(1.05);
+}
+
+/* Main */
+main {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+/* Produtos */
+.products-section {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.products-section h2, .product-detail-section h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-img, .product-detail-img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-info h3, .product-detail-info h3 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.product-info .price, .product-detail-info .price {
+    color: #d11f1f;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Detalhes do Produto */
+.product-detail-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.product-detail-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-detail-info p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Modais */
+.account-modal, .cart-modal, .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.account-modal-content, .cart-modal-content, .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+}
+
+.close, .close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cart-item, .cart-total, .order, .order-item, .order-total {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-total, .order-total {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.check-icon {
+    font-size: 40px;
+    color: green;
+    animation: check-animation 0.5s ease-in-out forwards;
+}
+
+/* Animações */
+@keyframes check-animation {
+    0% { transform: scale(0); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+/* Estilo para o toast */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50; /* Cor verde para sucesso */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    display: none; /* Inicialmente escondido */
+    opacity: 0; /* Inicia com opacidade 0 */
+    transition: opacity 0.5s ease-out; /* Transição suave */
+    z-index: 9999; /* Para garantir que o toast fique por cima */
+}
+
+/* Estilo para a animação */
+.toast.show {
+    display: block;
+    opacity: 1; /* Torna o toast visível */
+}
+
+/* Estilo do popup de confirmação de pedido */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    animation: slide-down 0.5s ease-out;
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close-popup:hover {
+    color: #d11f1f;
+}
+
+.check-icon {
+    font-size: 50px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.popup-content h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.popup-content p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.send-bill-button {
+    background-color: #28a745; /* Cor verde para destacar */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.send-bill-button:hover {
+    background-color: #218838; /* Cor mais escura ao passar o mouse */
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+    max-width: 300px;
+}
+
+.popup-content p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.popup-content button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.popup-content button:hover {
+    background-color: #0056b3;
+}
