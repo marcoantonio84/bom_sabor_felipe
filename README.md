@@ -1,6 +1,4 @@
-Aqui está o README atualizado com as rotas:
 
-```markdown
 # Sistema de Pedidos para Restaurante
 
 ## Descrição
@@ -52,18 +50,10 @@ cd projeto-restaurante
 composer install
 ```
 
-### 3. Configure o Banco de Dados
 
-Crie o banco de dados no MySQL e configure as credenciais no arquivo `.env`. Exemplo:
-
-```ini
-DB_HOST=localhost
-DB_NAME=restaurante_db
-DB_USER=root
-DB_PASSWORD=
 ```
 
-### 4. Rode os Testes (opcional)
+### 3. Rode os Testes (opcional)
 
 Para rodar os testes unitários, use o PHPUnit:
 
@@ -142,7 +132,4 @@ Projeto Felipe
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
-```
-
-Esse README fornece uma documentação completa do projeto, incluindo as rotas para cada recurso. Se precisar de mais detalhes ou ajustes, avise!
+Este projeto está licenciado para o Marco
